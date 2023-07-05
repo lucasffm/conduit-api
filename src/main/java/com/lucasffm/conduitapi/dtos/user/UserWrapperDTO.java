@@ -1,11 +1,7 @@
 package com.lucasffm.conduitapi.dtos.user;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 public class UserWrapperDTO<T> {
-  private static final String USER_KEY = "user";
 
-  @JsonProperty(USER_KEY)
   private T user;
 
   public T getUser() {
